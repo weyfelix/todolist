@@ -1,19 +1,73 @@
-:root {
-  --color-Gray100: #F2F2F2;
-  --color-Gray200: #D9D9D9;
-  --color-Gray300: #808080;
-  --color-Gray400: #333333;
-  --color-Gray500: #262626;
-  --color-Gray600: #1A1A1A;
-  --color-Gray700: #0D0D0D;
-  --color-Purple: #8284FA;
-  --color-PurpleDark: #5E60CE;
-  --color-Blue: #4EA8DE;
-  --color-BlueDark: #1E6F9F;
-  --color-Danger: #E25858;
+body {
+  height: 100vh;
 }
 
-* {
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: var(--color-Gray600);
   color: var(--color-Gray100);
+}
+
+.header {
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-Gray700);
+  align-items: center;
+  justify-content: center;
+}
+
+.corpo {
+  align-items: center;
+  transform: translateY(-50%);
+}
+
+.inputTask {
+  padding: 0 26%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inputTask button {
+  height: 3.375rem;
+  width: 5.625rem;
+}
+
+.inputTask input {
+  height: 3.375rem;
+  width: 100%;
+  border-radius: 8px;
+  color: var(--color-Gray300);
+  background-color: var(--color-Gray500);
+  border: solid 1px;
+  border-color: var(--color-Gray700);
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.inputTask input:focus  {
+  outline: none;
+  border-color: var(--color-PurpleDark);
+  color: var(--color-Gray100);
+}
+
+.inputTask button {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: var(--color-BlueDark);
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputTask button:hover {
+  background-color: var(--color-Blue);
 }
