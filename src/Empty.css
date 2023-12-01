@@ -1,0 +1,30 @@
+.Empty {
+  margin-top: 1.5rem;
+  padding-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
+  border-top: 1px solid #333333;
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.Empty img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.Empty p {
+  color: var(--color-Gray300);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.Empty p span {
+  color: var(--color-Gray300);
+  font-size: 1rem;
+  font-weight: bold;
+}

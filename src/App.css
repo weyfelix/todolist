@@ -1,13 +1,11 @@
 body {
-  height: 100vh;
+  background-color: var(--color-Gray600);
 }
 
 .container {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: var(--color-Gray600);
   color: var(--color-Gray100);
 }
 
@@ -25,7 +23,7 @@ body {
   transform: translateY(-1.687rem);
 }
 
-.inputTask {
+.inputTask form {
   padding: 0 26%;
   display: flex;
   gap: 0.5rem;
@@ -121,128 +119,11 @@ body {
   justify-content: center;
 }
 
-.Empty {
-  margin-top: 1.5rem;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-grow: 1;
-  align-items: center;
-  border-top: 1px solid #333333;
-  border-radius: 8px;
-  gap: 1rem;
-}
-
-.Empty img {
-  width: 3.5rem;
-  height: 3.5rem;
-}
-
-.Empty p {
-  color: var(--color-Gray300);
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.Empty p span {
-  color: var(--color-Gray300);
-  font-size: 1rem;
-  font-weight: bold;
-}
-
-
 .List {
   margin-top: 1.5rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  flex-grow: 1;
   gap: 0.75rem;
-}
-
-.List .Task {
-  width: 100%;
-  display: flex;
-  background-color: var(--color-Gray500);
-  border: 1px solid var(--color-Gray400);
-  border-radius: 8px;
-  padding: 1rem;
-  gap: 0.75rem;
-}
-
-.List .Task p {
-  margin-left: 1.5rem;
-  text-align: justify;
-  font-size: 0.875rem;
-  font-weight: 400;
-  color: var(--color-Gray100);
-}
-.List .Task span {
-  height: 1.5rem;
-  width: 1.5rem;
-  padding: 4px;
-}
-
-.List .Task button {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  margin: 0;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  background-color: transparent;
-  background-image: url('./src/assets/trash.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.List .Task button:hover {
-  background-image: url('./src/assets/trashHover.png');
-}
-
-.List .Task .round {
-  position: relative;
-  width: 1rem;
-}
-
-.List .Task .round > label {
-  border: 2px solid var(--color-Blue);
-  border-radius: 50%;
-  cursor: pointer;
-  height: 24px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 24px;
-}
-
-.List .Task .round > label:after {
-  border: 2px solid var(--color-Gray100);
-  border-top: none;
-  border-right: none;
-  content: "";
-  height: 2px;
-  left: 7px;
-  opacity: 0;
-  position: absolute;
-  top: 8px;
-  transform: rotate(-45deg);
-  width: 8px;
-}
-
-.List .Task .round input[type="checkbox"] {
-  visibility: hidden;
-}
-
-.List .Task .round input[type="checkbox"]:checked + label {
-  background-color: var(--color-PurpleDark);
-  border-color: var(--color-PurpleDark);
-}
-
-.List .Task .round input[type="checkbox"]:checked + label:after {
-  opacity: 1;
 }
