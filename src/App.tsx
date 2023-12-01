@@ -3,7 +3,7 @@
 import './App.css';
 
 
-import { Task } from './task';
+import { Task } from './Task';
 import { Empty } from './Empty';
 import {useEffect, useState, FormEvent, ChangeEvent} from 'react';
 import { v4 as uuidv4 } from 'uuid';
