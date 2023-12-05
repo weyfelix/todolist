@@ -2,6 +2,9 @@
 
 import './App.css';
 
+import imgPlus from './src/assets/plus.png'
+import logo from './src/assets/Logo.png'
+
 
 import { Task } from './Task';
 import { Empty } from './Empty';
@@ -68,7 +71,7 @@ function App() {
   return (
     <div className='container'>
         <div className='header'>
-              <img src="./src/assets/Logo.png" alt="Logo ToDo List" />
+              <img src={logo} alt="Logo ToDo List" />
         </div>
         <div className='corpo'>
           <div className='inputTask'>
@@ -81,7 +84,7 @@ function App() {
                     onChange={handleNewTaskText}
                     required
                     />
-                <button type='submit' className='buttonCriar'>Criar <img src="./src/assets/plus.png" alt="" /></button>
+                <button type='submit' className='buttonCriar'>Criar <img src={imgPlus} alt="ImgPlus" /></button>
               </form>
           </div>
           <div className='Tasks'>
