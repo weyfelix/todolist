@@ -34,13 +34,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O ToDo List é ....
+O ToDo List é uma página web para criação e controle de tarefas. 
+Esse projeto é um dos desafios da trilha de React do Ignite, um bootcamp completo de especialização em React, React Native e Node.js. ....
 
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://ignite-todolist-black.vercel.app)
 
 
 ## 🔖 Layout
 
+- [Acesse o Layout do projeto em]([https://ignite-todolist-black.vercel.app](https://www.figma.com/file/FO6WYmutlhnbV74WS2ky1G/ToDo-List-%E2%80%A2-Desafio-React-Copy-Copy?type=design&fuid=840029839436619104))
 
 
 ## :memo: Licença
