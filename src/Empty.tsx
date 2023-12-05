@@ -1,5 +1,5 @@
 import './Empty.css'
-import clipboard from './src/assets/Clipboard.png'
+import clipboard from './assets/Clipboard.png'
 
 export function Empty () {
 

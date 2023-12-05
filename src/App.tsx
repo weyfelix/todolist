@@ -2,8 +2,8 @@
 
 import './App.css';
 
-import imgPlus from './src/assets/plus.png'
-import logo from './src/assets/Logo.png'
+import imgPlus from './assets/plus.png'
+import logo from './assets/Logo.png'
 
 
 import { Task } from './Task';
